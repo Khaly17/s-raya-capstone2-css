@@ -1,0 +1,50 @@
+.about{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background:#333;
+    padding:2rem;
+    padding-top: 6rem;
+}
+
+.about .image{
+    flex:1 1 40rem;
+    text-align: center;
+    padding:4rem 0;
+}
+
+.about .image img{
+    height:70vh;
+}
+
+.about .content{
+    flex:1 1 40rem;
+}
+
+.about .content h3{
+    font-size: 4rem;
+    color:#fff;
+}
+
+.about .content .heading{
+    background:rgba(0,0,0,.3);
+}
+
+.about .content p{
+    font-size: 1.5rem;
+    color:#eee;
+    padding:1rem 0;
+}
+
+.about .content ul li{
+    list-style: none;
+    font-size: 2rem;
+    color:#fff;
+    padding:.5rem 0;
+}
+
+.about .content ul li i{
+    color:var(--blue);
+}

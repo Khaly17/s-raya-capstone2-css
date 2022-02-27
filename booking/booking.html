@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>S@raya-2022</title>
+    
+        <!-- google fonts cdn link  -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    
+        <!-- font awesome cdn link  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    
+        <!-- custom css file link  -->
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="./booking.css">
+    
+    </head>
+<body>
+    
+    <header>
+
+        <a href="../index.html" class="logo"></i>S@raya-Tech</a>
+        
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="../index.html">Home</a></li>
+                <li><a href="../booking/booking.html">Booking</a></li>
+                <li><a href="../services/services.html">Services</a></li>  
+                <li><a href="../aboutus/about.html">about</a></li>       
+                <li><a href="../contacts/contact.html">contact</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+      
+    <div class="modal">
+        <div class="modalContainer">
+          <div class="modalFeatured">
+            <div class="modalCircle"></div>
+            <img src="../images/booking1.webp" class="modalBookingImage" />
+          </div>
+          <div class="modalContent">
+            <h2>Book Your Service</h2>
+    
+            <form  action="../bookingSuccess/booking-success.html" method="post">
+              <ul class="formList">
+                <li class="formListRow formListRow--inline">
+                  <div>
+                    <div class="formListInput-inline">
+                      <input type="text" name="name" placeholder="Name" required="" />
+                      <input type="text" id="model" name="Phone" placeholder="Phone" required="" />
+                    </div>
+                  </div>
+                </li>
+
+                <li class="formListRow">
+                    <label>Select Service</label>
+                    <select >
+                        <option>--select--</option>
+                        <option value="opt1">opt1</option>
+                        <option value="opt2">opt2</option>
+                        <option value="opt3">opt3</option>
+                    </select>
+                </li>
+
+                <li class="formListRow">
+                    <label>Email</label>
+                    <input type="email" name="" required="" />
+                </li>
+                
+                <li class="formListRow formListRow--inline">
+                    <div>
+                      <label>Cars</label>
+                      <div class="formListInput-inline">
+                        <input type="text" id= "make" name="make" placeholder="make" required="" />
+                        <input type="text" id="model" name="model" placeholder="model" required="" />
+                      </div>
+                    </div>
+                  </li>
+
+                <li class="formListRow formListRow--inline">
+                  <div>
+                    <label>Fuel Type</label>
+                    <div class="formListInput-inline">
+                      <input type="radio" name="fuel" required="" />Petrol
+                      <input type="radio" name="fuel" required="" />Diesel
+                      <input type="radio" name="fuel" required="" />LPG
+                      <input type="radio" name="fuel" required="" />Others
+                    </div>
+                  </div>
+                  
+                </li>
+               
+                <li>
+                  <button type="submit" class="button">Schedule your Appointment</button>
+                </li>
+              </ul>
+            </form>
+          </div> 
+        </div> 
+      </div> 
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>why choose us?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem libero ea repellendus aut commodi, sequi praesentium! Neque aliquam excepturi quas.</p>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="../index.html">home</a>
+            <a href="../booking/booking.html">Booking</a>
+            <a href="../services/services.html">Services</a>
+            <a href="../aboutus/about.html">about</a>
+            <a href="../contacts/contact.html">contact</a>
+
+        </div>
+
+        <div class="box">
+            <h3>contact us</h3>
+            <p> <img src="../images/address1.webp" width="30px" height="30px"> Medina, Dakar </p>
+            <p> <img src="../images/gitub1.webp" width="30px" height="30px"> https://github.com/Khaly17 </p>
+            <p> <img src="../images/phone1.webp" width="30px" height="30px"> +221 77 022 45 45 </p>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by &copy; <a href="https://github.com/Khaly17">DIENG Khaly</a> | all rights reserved. </h1>
+
+    </section>
+
+<!-- footer section ends -->
+</body>
+</html>
