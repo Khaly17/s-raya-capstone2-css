@@ -136,7 +136,7 @@ header #menu{
 
 .home .content .btn{
     background:#fff;
-    color:#333;
+    color:rgb(5, 105, 89);
 }
 
 .home .content .btn:hover{
@@ -152,7 +152,7 @@ header #menu{
     color:#fff;
     background:var(--blue);
     margin-top: 1rem;
-    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+    box-shadow: 0 .3rem .5rem rgb(5, 105, 89);
     cursor: pointer;
     border:none;
     overflow: hidden;
@@ -166,7 +166,7 @@ header #menu{
     top:0; right: 0;
     height:100%;
     width:0%;
-    background:#333;
+    background:rgb(5, 105, 89);
     z-index: -1;
     transition: .2s linear;
 }
